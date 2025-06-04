@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background-image: url('../images/peppa.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.container {
+  background-color: rgba(255, 192, 203, 0.95);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+h2 {
+  color: #b30059;
+}
+
+input, textarea, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ff3399;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e60073;
+}
+
+.hidden {
+  display: none;
+}
+
+.grievance-list {
+  text-align: left;
+  margin-top: 20px;
+  background: #fff0f5;
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.grievance-item {
+  border-bottom: 1px solid #ff99cc;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
